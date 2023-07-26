@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useEffect, useReducer, useState } from "react";
+import { ReactNode, createContext, useEffect, useReducer } from "react";
 
 import { productList } from "../data/products"; 
 import { Order, ShoppingCart, ShoppingCartItem, shoppingReducer } from "../reducers/shopping";
