@@ -1,8 +1,9 @@
 import { ShoppingCart } from "@phosphor-icons/react";
 import { AddCartButton, ProductCart, ProductContainer, ProductForm, ProductPrice } from "./styles";
-import { Product, ShoppingContext } from "../../context/ShoppingContext";
+import { ShoppingContext } from "../../context/ShoppingContext";
 import { useState, useContext } from "react";
 import { InputCounter } from "../InputCounter";
+import { Product } from "../../reducers/shopping";
 
 interface ProductCardProps {
   product: Product;
